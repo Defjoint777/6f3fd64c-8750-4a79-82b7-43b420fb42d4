@@ -1,4 +1,4 @@
-<!---
+rm <!---
 {
   "id": "6f3fd64c-8750-4a79-82b7-43b420fb42d4",
   "author": "Stephan Bökelmann",
@@ -133,9 +133,11 @@ int main() {
 ## 4) Questions
 
 1. What happens if you omit `\033[0m` at the end of a print statement?
-2. Can you find a way to use RGB colors in the terminal instead of the 8 basic ones?
-3. How does your terminal handle escape codes? Do some codes work differently in different terminal emulators?
-
+   its Terminates the decloration of will to formatt the text.
+3. Can you find a way to use RGB colors in the terminal instead of the 8 basic ones?
+   printf("\033[38;2;zahl;zahl;zahlm Text \033[0m\n")
+5. How does your terminal handle escape codes? Do some codes work differently in different terminal emulators?
+  my terminal handle escape codes as a start and end of declaration of a statement
 ## 5) Advice
 
 Mastering ANSI escape codes can significantly enhance command-line applications, making logs more readable and CLI tools more interactive. Try integrating these techniques into your scripts, command-line utilities, and even progress indicators!
